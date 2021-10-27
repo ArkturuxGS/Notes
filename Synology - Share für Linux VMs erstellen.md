@@ -24,3 +24,10 @@ Um die NFS Berechtigungen zuerteilen, geht man wie folgt vor:
 
 ![[Pasted image 20211027095154.png]]
 
+Hier nun lediglich die IP-Adresse des Hosts eingeben, welcher sich mit dem Share verbinden darf.
+
+Speichern nicht vergessen!
+
+## Linux - Share mounten
+
+1. Mountpoint erstellen. Am besten unter /mnt/
