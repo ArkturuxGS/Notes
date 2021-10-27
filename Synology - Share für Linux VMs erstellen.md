@@ -30,4 +30,8 @@ Speichern nicht vergessen!
 
 ## Linux - Share mounten
 
-1. Mountpoint erstellen. Am besten unter /mnt/
+1. Mountpoint erstellen. Am besten unter /mnt/. In meinem Beispiel `mkdir /tmp/Transfer`
+2. `sudo mount -t nfs [IP-Der-Synology]:/[Pfad-Zum-Ordner] [MountPoint]`
+
+	Beispiel
+	`sudo mount -t nfs 192.168.178.245:/volume1/Transfer /mnt/Transfer
