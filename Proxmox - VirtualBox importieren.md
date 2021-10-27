@@ -1,4 +1,4 @@
-# Virtualbox Image in Proxmox importieren
+# Proxmox - VirtualBox importieren
 
 ## Speicherort der virtuellen Festplatte herausfinden
 
