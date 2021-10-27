@@ -24,14 +24,17 @@ Um die NFS Berechtigungen zuerteilen, geht man wie folgt vor:
 
 ![[Pasted image 20211027095154.png]]
 
+Anmerkung: Links unten im "Bearbeiten-Fenster" findet man den Pfad zum Ordner. Diesen sollte man notieren, wenn man ihn nicht weiß.
+
 Hier nun lediglich die IP-Adresse des Hosts eingeben, welcher sich mit dem Share verbinden darf.
 
 Speichern nicht vergessen!
 
 ## Linux - Share mounten
 
-1. Mountpoint erstellen. Am besten unter /mnt/. In meinem Beispiel `mkdir /tmp/Transfer`
-2. `sudo mount -t nfs [IP-Der-Synology]:/[Pfad-Zum-Ordner] [MountPoint]`
+1. Mountpoint erstellen. Am besten unter /mnt/. 
+ In meinem Beispiel `mkdir /tmp/Transfer`
+3. `sudo mount -t nfs [IP-Der-Synology]:/[Pfad-Zum-Ordner] [MountPoint]`
 
 	Beispiel
-	`sudo mount -t nfs 192.168.178.245:/volume1/Transfer /mnt/Transfer
+	`sudo mount -t nfs 192.168.178.245:/volume1/Transfer /mnt/Transfer`
