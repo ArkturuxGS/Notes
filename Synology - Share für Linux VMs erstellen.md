@@ -38,3 +38,10 @@ Speichern nicht vergessen!
 
 	Beispiel
 	`sudo mount -t nfs 192.168.178.245:/volume1/Transfer /mnt/Transfer`
+	
+## Linux - Share in der fstab hinterlegen
+
+Damit das Share nachdem nächsten Neustart automatisch verbunden werden kann, sind folgende Schritte nötig.
+
+1. `sudo nano /etc/fstab`
+2. Den folgenden String anpassen und einfügen: 192.168.178.245:/volume1/Transfer /mnt/Transfer
