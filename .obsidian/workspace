@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Synology - Share für Linux VMs erstellen.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -89,6 +89,8 @@
   "active": "696a5c113b8e48a2",
   "lastOpenFiles": [
     "Synology - Share für Linux VMs erstellen.md",
+    "Images/Pasted image 20211027095154.png",
+    "Pasted image 20211027095123.png",
     "Proxmox - VirtualBox importieren.md",
     "Test.md",
     "Images/Pasted image 20211027074518.png"
