@@ -18,4 +18,6 @@
 5. Folgenden Eintrag in der /etc/fstab hinzufügen 
 ```UUID=xxx /mnt/Main btrfs defaults 0 0``` 
 6. Mit `mount -a` wird das Laufwerk eingebunden.
+7. Mit `df -h %Pfad%` kann die größe des RAIDs eingesehen werden
 
+	![[Pasted image 20211103190155.png]]
