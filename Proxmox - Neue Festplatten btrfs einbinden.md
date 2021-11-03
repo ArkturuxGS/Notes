@@ -1,6 +1,8 @@
 # Proxmox - Neue Festplatten btrfs einbinden
 
-## Einzelnes Laufwerk
+## btrfs erstellen
+
+### Einzelnes Laufwerk
 1. Mit `fdisk -l` herausfinden, welchen Namen die neue Festplatte hat. Bsp. /dev/sda
 2. Mit `mkfs.btrfs -fL %VolumenName% %Pfad%` also `mkfs.btrfs -fL Main /dev/sda` das btrfs Volume erstellen.
 3. Anschließend wird eine UUID angezeigt, diese in der Zwischenablage abspeichern.
@@ -9,9 +11,9 @@
 ```UUID=xxx /mnt/Main btrfs defaults 0 0``` 
 6. Mit `mount -a` wird das Laufwerk eingebunden.
 
-## RAID
-
-1. Mit `fdisk -l` herausfinden, welche Festplatten kombiniert werden sollen. `/dev/sda /dev/sdb`
+### RAID
+1. Mit `fdisk -l` herausfinden, welche Festplatten kombiniert werden sollen. 
+Beispiel: `/dev/sda /dev/sdb`
 2. Mit `mkfs.btrfs -f -m raid0 /dev/sdd /dev/sde` das Raid erstellen.
 3. Anschließend wird eine UUID angezeigt, diese in der Zwischenablage abspeichern.
 4. Einen beliebigen Mountpoint erstellen. Bsp. `/mnt/Main`
@@ -21,3 +23,9 @@
 7. Mit `df -h %Pfad%` kann die größe des RAIDs eingesehen werden
 
 	![[Pasted image 20211103190155.png]]
+
+
+## Neues Laufwerk in Proxmox einbinden
+
+
+
