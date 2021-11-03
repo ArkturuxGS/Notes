@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Synology - Share für Linux VMs erstellen.md",
+            "file": "Proxmox - Neue Festplatten btrfs einbinden.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Synology - Share für Linux VMs erstellen.md",
+                "file": "Proxmox - Neue Festplatten btrfs einbinden.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,10 +88,11 @@
   },
   "active": "696a5c113b8e48a2",
   "lastOpenFiles": [
+    "Proxmox - Neue Festplatten btrfs einbinden.md",
+    "Proxmox - VirtualBox importieren.md",
     "Synology - Share für Linux VMs erstellen.md",
     "Images/Pasted image 20211027095154.png",
     "Pasted image 20211027095123.png",
-    "Proxmox - VirtualBox importieren.md",
     "Test.md",
     "Images/Pasted image 20211027074518.png"
   ]
