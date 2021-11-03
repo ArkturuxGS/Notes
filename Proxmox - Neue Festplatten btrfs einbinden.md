@@ -26,6 +26,8 @@ Beispiel: `/dev/sda /dev/sdb`
 
 
 ## Neues Laufwerk in Proxmox einbinden
+1. Im Datacenter unter Storage, die Funktion Add anklicken.
+2. Anschließend unter ID den Namen des Storages eingeben und den Pfad zum oben genannten Mountpoint einfügen
 
-
+	![[Pasted image 20211103190753.png]]
 
