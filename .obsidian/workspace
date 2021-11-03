@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Proxmox - Neue Festplatten btrfs einbinden.md",
+            "file": "Proxmox - Repository einbinden und Warnung entfernen.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Proxmox - Neue Festplatten btrfs einbinden.md",
+                "file": "Proxmox - Repository einbinden und Warnung entfernen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,8 +88,10 @@
   },
   "active": "696a5c113b8e48a2",
   "lastOpenFiles": [
-    "Proxmox - Neue Festplatten btrfs einbinden.md",
+    "Proxmox - Repository einbinden und Warnung entfernen.md",
     "Proxmox - VirtualBox importieren.md",
+    "Proxmox - Neue Festplatten btrfs einbinden.md",
+    "Images/Pasted image 20211103190155.png",
     "Synology - Share für Linux VMs erstellen.md",
     "Images/Pasted image 20211027095154.png",
     "Pasted image 20211027095123.png",
