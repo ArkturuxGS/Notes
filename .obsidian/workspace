@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OffSec - Checklist für Port 80 und 443.md",
+            "file": "OffSec - Webserverangriff.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OffSec - Checklist für Port 80 und 443.md",
+                "file": "OffSec - Webserverangriff.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,7 @@
   },
   "active": "696a5c113b8e48a2",
   "lastOpenFiles": [
-    "OffSec - Checklist für Port 80 und 443.md",
+    "OffSec - Webserverangriff.md",
     "OffSec - Reverse Shell Cheat Sheet.md",
     "OffSec - nmap.md",
     "OffSec - Metasploit.md",
