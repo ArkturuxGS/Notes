@@ -14,3 +14,8 @@ Struts (https://github.com/LightC0der/Apache-Struts-0Day-Exploit)
 Shell shock (https://www.exploit-db.com/exploits/34900) 
 OpenFuck (https://github.com/exploit-inters/OpenFuck
 
+## Directory Bruteforcing
+
+Siehe [[OffSec - gobuster]]
+
+##
