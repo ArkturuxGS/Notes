@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Synology - Share für Linux VMs erstellen.md",
-            "mode": "source"
+            "file": "OffSec - Reverse Shell Cheat Sheet.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Synology - Share für Linux VMs erstellen.md",
+                "file": "OffSec - Reverse Shell Cheat Sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "696a5c113b8e48a2",
   "lastOpenFiles": [
+    "OffSec - Reverse Shell Cheat Sheet.md",
     "Synology - Share für Linux VMs erstellen.md",
     "Proxmox - Repository einbinden und Warnung entfernen.md",
     "Proxmox - VirtualBox importieren.md",
