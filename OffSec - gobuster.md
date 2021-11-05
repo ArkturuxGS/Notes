@@ -1,5 +1,4 @@
 # gobuster
-Autor: Fabian Zertani
 
 ## Beschreibung
 gobuster ist ein #Commandlinetool zum bruteforcen  von URLs und gehört zu den #Enumerationtools.

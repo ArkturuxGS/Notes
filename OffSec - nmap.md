@@ -13,5 +13,3 @@ Im oben genannten Beispiel muss Nmap als Root ausgeführt werden, da für den Pa
 `-p-` Steht für die Portrange, die beim Scan abgegriffen wird. `-p-` beschreibt alle 65535 Ports. Es können aber auch einzelne Ports gescannt werden. Beispiel: Für die Ports 439 und 445 kann man -p 439,445 angeben. Für alle Ports zwischen 439 und 445 -p 439-445
 
 Mit dem Zusatz `-oN` und der Angabe eines Pfades, kann man den Scan parallel in einer Textdatei abspeichern.
-
-Für weitere Befehle siehe [[nmap Cheatsheet]]
