@@ -16,3 +16,15 @@
 - `uname -a`
 - `arch`
 - `ldd -version`
+
+## Crontabs
+
+- `ls -lah /etc/cron*`
+- `cat /etc/crontab`
+- `ls -la /var/log/cron*`
+- `find / -name cronlog 2>/dev/null`
+
+## Ports checken
+- `lsof -Pni`
+- `Netstat -antp`
+
