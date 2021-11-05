@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OffSec - Webserverangriff.md",
+            "file": "Offsec - Linux Priviledge Escalation.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OffSec - Webserverangriff.md",
+                "file": "Offsec - Linux Priviledge Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "696a5c113b8e48a2",
   "lastOpenFiles": [
+    "Offsec - Linux Priviledge Escalation.md",
     "OffSec - Webserverangriff.md",
     "OffSec - gobuster.md",
     "OffSec - Reverse Shell Cheat Sheet.md",
@@ -96,7 +97,6 @@
     "OffSec - LDAP.md",
     "Synology - Share für Linux VMs erstellen.md",
     "Proxmox - VirtualBox importieren.md",
-    "Proxmox - Repository einbinden und Warnung entfernen.md",
-    "Proxmox - Neue Festplatten btrfs einbinden.md"
+    "Proxmox - Repository einbinden und Warnung entfernen.md"
   ]
 }

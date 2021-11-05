@@ -17,5 +17,3 @@ OpenFuck (https://github.com/exploit-inters/OpenFuck
 ## Directory Bruteforcing
 
 Siehe [[OffSec - gobuster]]
-
-##
