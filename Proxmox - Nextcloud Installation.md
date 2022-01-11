@@ -31,3 +31,11 @@ Hier einfach die Zeitzone hinterlegen z.B. "Europe/Berlin"
 
 Mit dem Befehl `mysql_secure_installation` die Installation von mySQL starten.
 Validate Password Login mit "N" ablehnen und im nächsten Schritt ein neues root Kennwort für die Datenbank festlegen.
+
+Im nächsten Schritt auf jeden Fall den Anonymen Nutzer mit Y entfernen!
+Bei der nächsten Abfrage wird angeboten, den root-login nur via Localhost zu erlauben. Dies ist mit Y zu bestätigen. Das Entfernen der Testdatenbank, sowie das neuladen der Priviledgetable sind mit Y zu bestätigen.
+
+
+
+
+
