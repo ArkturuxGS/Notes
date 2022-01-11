@@ -10,3 +10,4 @@ Um Daten außerhalb des Containers zu speichern, sind folgende Schritte nötig:
 
 5. Speicherplatz in GiB auswählen
 6. Den Pfad angeben. In unserem Beispiel "/mnt/storage"
+7. Der Container kann nun wieder hochgefahren werden. Mit dem Befehl `df -h` kann überprüft werden, ob das Mounten erfolgreich war

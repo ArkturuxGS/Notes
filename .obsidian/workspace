@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Synology - Share für Linux VMs erstellen.md",
+            "file": "Proxmox - Nextcloud Installation.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Synology - Share für Linux VMs erstellen.md",
+                "file": "Proxmox - Nextcloud Installation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "696a5c113b8e48a2",
   "lastOpenFiles": [
-    "Synology - Share für Linux VMs erstellen.md",
     "Proxmox - Nextcloud Installation.md",
+    "Proxmox - NextCloud - Festplatte mounten.md",
+    "Proxmox - VirtualBox importieren.md",
+    "Synology - Share für Linux VMs erstellen.md",
     "Proxmox - Repository einbinden und Warnung entfernen.md",
     "OffSec - LDAP.md",
     "OffSec - gobuster.md",
     "Proxmox - Neue Festplatten btrfs einbinden.md",
-    "Proxmox - NextCloud - Festplatte mounten.md",
     "OffSec - Webserverangriff.md",
-    "OffSec - Reverse Shell Cheat Sheet.md",
-    "Medien/Pasted image 20220111151221.png"
+    "OffSec - Reverse Shell Cheat Sheet.md"
   ]
 }
