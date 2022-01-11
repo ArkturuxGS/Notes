@@ -15,6 +15,13 @@ Für eine detaillierte Anleitung zur Installation von #LXC Containern unter Prox
 5. Zum Download der Nextcloud Software empfiehlt es sich direkt den neusten Release zu nehmen.
 `cd /tmp && wget https://download.nextcloud.com/server/releases/latest.zip `
 
+In das Verzeichnis des Nextcloud-Downloads wechseln.
+Mit `unzip latest.zip` das Archiv entpacken.
+
+Die Daten mit:
+`mv nextcloud /var/www`
+In das Hostverzeichnis verschieben.
+
 ## Konfiguration PHP
 Zusätzlich werden noch weitere PHP-Module für die #Nextcloud benötigt
 `apt install php-zip php-dompdf php-xml php-mbstring php-gd php-curl php-imagick php-intl unzip`
@@ -53,9 +60,7 @@ Nun erhält der Nutzer Zugriff auf die Datenbank
 
 Zum Schluss die Rechte mit `FLUSH PRIVILEDGES` aktualisieren.
 
+## Konfiguration Apache
 
-## Installation Nextcloud
-In das Verzeichnis des Nextcloud-Downloads wechseln.
-Mit `unzip latest.zip` das Archiv entpacken.
-
+`nano /etc/apache2/sites-available/nextcloud.conf`
 
