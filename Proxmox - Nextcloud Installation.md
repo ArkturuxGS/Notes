@@ -70,8 +70,8 @@ Als erstes wird eine Konfiguartionsdatei für die Nextcloud erstellt:
 <VirtualHost *:80>
      ServerAdmin master@domain.com
      DocumentRoot /var/www/nextcloud/
-     ServerName demo.domain.com
-     ServerAlias www.demo.domain.com
+     ServerName demo.domain.com (Durch Domain ersetzen)
+     ServerAlias www.demo.domain.com (Durch Domain ersetzen)
   
      Alias /nextcloud "/var/www/nextcloud/"
 
@@ -92,4 +92,21 @@ Als erstes wird eine Konfiguartionsdatei für die Nextcloud erstellt:
 </VirtualHost>
 ```
 
+Im Anschluss folgende Befehlskette starten
+```
+a2ensite nextcloud.conf
+a2enmod rewrite
+a2enmod headers
+a2enmod env
+a2enmod dir
+a2enmod mime
+```
+
+Da nun die Konfiguration des Apache geändert wurde, muss nun ein Neustart des Services durchgeführt werden.
+
+`systemctl restart apache2.service`
+
+## Zugriff auf gemountete Festplatte 
+
+Falls Zugriff auf eine gemountete Festplatte gewährt werden muss, ist der nächste Schrit
 
