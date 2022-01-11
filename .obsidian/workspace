@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Proxmox - Nextcloud Installation.md",
+            "file": "Nextcloud - Installation.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Proxmox - Nextcloud Installation.md",
+                "file": "Nextcloud - Installation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +89,7 @@
   },
   "active": "696a5c113b8e48a2",
   "lastOpenFiles": [
-    "Proxmox - Nextcloud Installation.md",
+    "Nextcloud - Installation.md",
     "Proxmox - Erstellung LXC Container.md",
     "Proxmox - NextCloud - Festplatte mounten.md",
     "Proxmox - VirtualBox importieren.md",
