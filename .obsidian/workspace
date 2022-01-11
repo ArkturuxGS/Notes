@@ -90,6 +90,7 @@
   "active": "696a5c113b8e48a2",
   "lastOpenFiles": [
     "Proxmox - Nextcloud Installation.md",
+    "Proxmox - Erstellung LXC Container.md",
     "Proxmox - NextCloud - Festplatte mounten.md",
     "Proxmox - VirtualBox importieren.md",
     "Synology - Share für Linux VMs erstellen.md",
@@ -97,7 +98,6 @@
     "OffSec - LDAP.md",
     "OffSec - gobuster.md",
     "Proxmox - Neue Festplatten btrfs einbinden.md",
-    "OffSec - Webserverangriff.md",
-    "OffSec - Reverse Shell Cheat Sheet.md"
+    "OffSec - Webserverangriff.md"
   ]
 }
