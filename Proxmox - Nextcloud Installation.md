@@ -12,6 +12,8 @@ Für eine detaillierte Anleitung zur Installation von #LXC Containern unter Prox
 
 4. Wie oben erwähnt, wird für #Nextcloud eine mySQL und PHP Installation erfordert. Dies bietet LAMP-Server `apt install lamp-server`
 
+5. Zum Download der Nextcloud Software empfiehlt es sich direkt den neusten Release zu nehmen.
+``
 ## Konfiguration PHP
 Zusätzlich werden noch weitere PHP-Module für die #Nextcloud benötigt
 `apt install php-zip php-dompdf php-xml php-mbstring php-gd php-curl php-imagick php-intl unzip`
@@ -43,6 +45,11 @@ Nun wurde eine neue Datenbank mit dem Namen "Nextcloud" erstellt.
 
 `CREATE USER 'nextclouduser'@'localhost' IDENTIFIED BY 'PASSWORD';`
 An dieser Stelle sollte ein anderer Nutzername als "nextclouduser" und ein sicheres Passwort gewählt werden.
+
+Nun erhält der Nutzer Zugriff auf die Datenbank
+`GRANT ALL ON nextcloud.* TO 'nextclouduser'@'localhost' IDENTIFIED BY 'PASSWORD' WITH GRANT OPTION;`
+
+Zum Schluss die Rechte mit `FLUSH PRIVILEDGES` aktualisieren.
 
 
 
