@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Offsec - Linux Priviledge Escalation.md",
+            "file": "Synology - Share für Linux VMs erstellen.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Offsec - Linux Priviledge Escalation.md",
+                "file": "Synology - Share für Linux VMs erstellen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "696a5c113b8e48a2",
   "lastOpenFiles": [
+    "Synology - Share für Linux VMs erstellen.md",
+    "Proxmox - VirtualBox importieren.md",
+    "OffSec - gobuster.md",
+    "OffSec - LDAP.md",
     "Offsec - Linux Priviledge Escalation.md",
     "OffSec - Webserverangriff.md",
-    "OffSec - gobuster.md",
     "OffSec - Reverse Shell Cheat Sheet.md",
     "OffSec - nmap.md",
     "OffSec - Metasploit.md",
-    "OffSec - LDAP.md",
-    "Synology - Share für Linux VMs erstellen.md",
-    "Proxmox - VirtualBox importieren.md",
     "Proxmox - Repository einbinden und Warnung entfernen.md"
   ]
 }
