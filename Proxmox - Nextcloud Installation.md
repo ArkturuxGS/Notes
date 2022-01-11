@@ -12,4 +12,9 @@ Für eine detaillierte Anleitung zur Installation von #LXC Containern unter Prox
 5. Zusätzlich werden noch weitere PHP-Module für die #Nextcloud benötigt
 `apt install php-zip php-dompdf php-xml php-mbstring php-gd php-curl php-imagick php-intl unzip`
 6. Für eine performantere #Nextcloud weisen wir PHP mehr RAM zu:
-`nano /etc/php/`
+`nano /etc/php/7.2/apache2/php.ini` (Die PHP-Version kann hier abweichen)
+Mit CTRL+W nach dem eintrag "memory_limit" suchen.
+Der Standartwert beträgt hier 128M
+Das Limit sollte hier zwischen 1024M und 2048M liegen.
+
+7. Damit größere Dateien als 2MB auf die Nextcloud hochgeladen werden können, muss auch di
