@@ -35,6 +35,9 @@ Validate Password Login mit "N" ablehnen und im nächsten Schritt ein neues root
 Im nächsten Schritt auf jeden Fall den Anonymen Nutzer mit Y entfernen!
 Bei der nächsten Abfrage wird angeboten, den root-login nur via Localhost zu erlauben. Dies ist mit Y zu bestätigen. Das Entfernen der Testdatenbank, sowie das neuladen der Priviledgetable sind mit Y zu bestätigen.
 
+Mit mySQL nun die Kommandozeile der mySQL-Datenbank aufrufen.
+Nun wird die Datenbank für die Nextcloud erstellt. Hierfür sind folgende Befehle nötig:
+`CREATE DATABASE nextcloud;`
 
 
 
