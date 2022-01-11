@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Nextcloud - Installation.md",
+            "file": "OffSec - gobuster.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nextcloud - Installation.md",
+                "file": "OffSec - gobuster.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,8 @@
   },
   "active": "696a5c113b8e48a2",
   "lastOpenFiles": [
+    "OffSec - gobuster.md",
+    "Offsec - Linux Priviledge Escalation.md",
     "Nextcloud - Installation.md",
     "Proxmox - Erstellung LXC Container.md",
     "Proxmox - NextCloud - Festplatte mounten.md",
@@ -96,8 +98,6 @@
     "Synology - Share für Linux VMs erstellen.md",
     "Proxmox - Repository einbinden und Warnung entfernen.md",
     "OffSec - LDAP.md",
-    "OffSec - gobuster.md",
-    "Proxmox - Neue Festplatten btrfs einbinden.md",
-    "OffSec - Webserverangriff.md"
+    "Proxmox - Neue Festplatten btrfs einbinden.md"
   ]
 }
