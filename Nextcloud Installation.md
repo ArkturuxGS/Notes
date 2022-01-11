@@ -106,7 +106,16 @@ Da nun die Konfiguration des Apache geändert wurde, muss nun ein Neustart des S
 
 `systemctl restart apache2.service`
 
+Zum Schluss dem www-data Nutzer Zugriff auf das Nextcloudverzeichnis gewähren:
+`chown -R www-data:www-data /var/www/nextcloud/`
+`chmod -R 755 /var/www/nextcloud`
+
+
 ## Zugriff auf gemountete Festplatte 
 
-Falls Zugriff auf eine gemountete Festplatte gewährt werden muss, ist der nächste Schrit
+Falls Zugriff auf eine gemountete Festplatte gewährt werden muss, ist der nächste Schritt nötig.
+Um zu erfahren, wie eine Festplatte unter #Proxmox gemountet wird, siehe [[Proxmox - NextCloud - Festplatte mounten]]
+
+`chown -R www-data:www-data %PfadZuMount%`
+
 
