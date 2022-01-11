@@ -8,4 +8,8 @@ Für eine detaillierte Anleitung zur Installation von #LXC Containern unter Prox
 
 2.  Via SSH auf dem Container anmelden. Nutzerdaten hierfür sind "root" und das bei der Installation festgelegte Passwort
 3.  `apt-get update && apt-get upgrade -y `
-4. Wie oben erwähnt, wird für #Nextcloud eine mySQL und PHP Installation erfordert. Dies 
+4. Wie oben erwähnt, wird für #Nextcloud eine mySQL und PHP Installation erfordert. Dies bietet LAMP-Server `apt install lamp-server`
+5. Zusätzlich werden noch weitere PHP-Module für die #Nextcloud benötigt
+`apt install php-zip php-dompdf php-xml php-mbstring php-gd php-curl php-imagick php-intl unzip`
+6. Für eine performantere #Nextcloud weisen wir PHP mehr RAM zu:
+`nano /etc/php/`
