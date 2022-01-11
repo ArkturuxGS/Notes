@@ -37,8 +37,12 @@ Bei der nächsten Abfrage wird angeboten, den root-login nur via Localhost zu er
 
 Mit mySQL nun die Kommandozeile der mySQL-Datenbank aufrufen.
 Nun wird die Datenbank für die Nextcloud erstellt. Hierfür sind folgende Befehle nötig:
-`CREATE DATABASE nextcloud;`
 
+`CREATE DATABASE nextcloud;`
+Nun wurde eine neue Datenbank mit dem Namen "Nextcloud" erstellt.
+
+`CREATE USER 'nextclouduser'@'localhost' IDENTIFIED BY 'PASSWORD';`
+An dieser Stelle sollte ein anderer Nutzername als "nextclouduser" und ein sicheres Passwort gewählt werden.
 
 
 
