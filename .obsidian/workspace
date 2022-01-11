@@ -7,9 +7,10 @@
         "id": "696a5c113b8e48a2",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "Medien/Pasted image 20220111151221.png"
+            "file": "Proxmox - NextCloud - Festplatte mounten.md",
+            "mode": "source"
           }
         }
       }
@@ -67,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Medien/Pasted image 20220111151221.png",
+                "file": "Proxmox - NextCloud - Festplatte mounten.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,15 +88,15 @@
   },
   "active": "696a5c113b8e48a2",
   "lastOpenFiles": [
+    "Proxmox - NextCloud - Festplatte mounten.md",
+    "Proxmox - Repository einbinden und Warnung entfernen.md",
+    "OffSec - Webserverangriff.md",
+    "OffSec - Reverse Shell Cheat Sheet.md",
     "Medien/Pasted image 20220111151221.png",
-    "NextCloud - Festplatte mounten.md",
     "Proxmox - Nextcloud Installation.md",
     "Synology - Share für Linux VMs erstellen.md",
-    "OffSec - Reverse Shell Cheat Sheet.md",
     "Proxmox - VirtualBox importieren.md",
     "OffSec - gobuster.md",
-    "OffSec - LDAP.md",
-    "Offsec - Linux Priviledge Escalation.md",
-    "OffSec - Webserverangriff.md"
+    "OffSec - LDAP.md"
   ]
 }
