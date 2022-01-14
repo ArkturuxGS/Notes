@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OffSec - gobuster.md",
+            "file": "OffSec - Intelligente Shell.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OffSec - gobuster.md",
+                "file": "OffSec - Intelligente Shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "696a5c113b8e48a2",
   "lastOpenFiles": [
+    "OffSec - Intelligente Shell.md",
     "OffSec - gobuster.md",
     "OffSec - LDAP.md",
     "Offsec - Linux Priviledge Escalation.md",
@@ -97,7 +98,6 @@
     "OffSec - Reverse Shell Cheat Sheet.md",
     "OffSec - Webserverangriff.md",
     "Nextcloud - Installation.md",
-    "Proxmox - Erstellung LXC Container.md",
-    "Proxmox - NextCloud - Festplatte mounten.md"
+    "Proxmox - Erstellung LXC Container.md"
   ]
 }
