@@ -90,14 +90,14 @@
   "active": "696a5c113b8e48a2",
   "lastOpenFiles": [
     "OffSec - gobuster.md",
+    "OffSec - LDAP.md",
     "Offsec - Linux Priviledge Escalation.md",
+    "OffSec - Metasploit.md",
+    "OffSec - nmap.md",
+    "OffSec - Reverse Shell Cheat Sheet.md",
+    "OffSec - Webserverangriff.md",
     "Nextcloud - Installation.md",
     "Proxmox - Erstellung LXC Container.md",
-    "Proxmox - NextCloud - Festplatte mounten.md",
-    "Proxmox - VirtualBox importieren.md",
-    "Synology - Share für Linux VMs erstellen.md",
-    "Proxmox - Repository einbinden und Warnung entfernen.md",
-    "OffSec - LDAP.md",
-    "Proxmox - Neue Festplatten btrfs einbinden.md"
+    "Proxmox - NextCloud - Festplatte mounten.md"
   ]
 }
