@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OffSec - Intelligente Shell.md",
+            "file": "Offsec - Linux Priviledge Escalation.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OffSec - Intelligente Shell.md",
+                "file": "Offsec - Linux Priviledge Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "696a5c113b8e48a2",
   "lastOpenFiles": [
+    "Offsec - Linux Priviledge Escalation.md",
     "OffSec - Intelligente Shell.md",
     "OffSec - SMB Enumeration Checklist.md",
     "OffSec - EnumMap.md",
@@ -97,7 +98,6 @@
     "OffSec - Portforwarding.md",
     "OffSec - gobuster.md",
     "OffSec - LDAP.md",
-    "Offsec - Linux Priviledge Escalation.md",
     "OffSec - Metasploit.md"
   ]
 }
