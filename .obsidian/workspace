@@ -7,9 +7,11 @@
         "id": "696a5c113b8e48a2",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "Medien/IMG_0079.png"
+            "file": "Offsec - Linux Priviledge Escalation.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Medien/IMG_0079.png",
+                "file": "Offsec - Linux Priviledge Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,11 +89,11 @@
   },
   "active": "696a5c113b8e48a2",
   "lastOpenFiles": [
+    "Offsec - Linux Priviledge Escalation.md",
+    "OffSec - EnumMap.md",
     "Medien/IMG_0079.png",
     "OffSec -  Netcat.md",
-    "OffSec - EnumMap.md",
     "OffSec - Intelligente Shell.md",
-    "Offsec - Linux Priviledge Escalation.md",
     "OffSec - Netcat.md",
     "OffSec - Metasploit.md",
     "OffSec - SMB Enumeration Checklist.md",
