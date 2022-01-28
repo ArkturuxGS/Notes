@@ -7,11 +7,9 @@
         "id": "696a5c113b8e48a2",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "OffSec -  Netcat.md",
-            "mode": "source",
-            "source": false
+            "file": "Medien/IMG_0079.png"
           }
         }
       }
@@ -69,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OffSec -  Netcat.md",
+                "file": "Medien/IMG_0079.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +87,7 @@
   },
   "active": "696a5c113b8e48a2",
   "lastOpenFiles": [
+    "Medien/IMG_0079.png",
     "OffSec -  Netcat.md",
     "OffSec - EnumMap.md",
     "OffSec - Intelligente Shell.md",
@@ -97,7 +96,6 @@
     "OffSec - Metasploit.md",
     "OffSec - SMB Enumeration Checklist.md",
     "Nextcloud - Installation.md",
-    "Medien/IMG_0079.png",
     "OffSec - Portforwarding.md"
   ]
 }
